@@ -2,8 +2,8 @@ import socket
 from cryptography.fernet import Fernet
 
 s = socket.socket()
-port = 5050
-ip = '172.16.36.8'
+port = 5050 #Change if you want, if you do change it pick a port above 1024
+ip = #server host ip e.g '1.1.1.1'
 
 s.bind((ip, port))
 
